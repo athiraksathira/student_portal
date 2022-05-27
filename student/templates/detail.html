@@ -1,0 +1,25 @@
+{%extends 'base.html'%}
+{%block body_block%}
+<div class="row mt-5">
+    <div class="cols-2"></div>
+    <div class="cols-8">
+        <div class="card">
+
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">First Name={{student.first_name}}</li>
+                                <li class="list-group-item">Last Name={{student.last_name}}</li>
+                                <li class="list-group-item">Email Id={{student.email}}</li>
+                                <li class="list-group-item">Phone Number={{student.phone_number}}</li>
+                                <li class="list-group-item">Address 1={{student.address1}}</li>
+                                <li class="list-group-item">Address 2={{student.address2}}</li>
+
+
+
+
+
+            </ul>
+        </div>
+
+    </div>
+    <div class="col-2"></div>
+  {%endblock%}
